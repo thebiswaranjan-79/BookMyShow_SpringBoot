@@ -21,6 +21,6 @@ public class BookingDTO {
     private double totalAmount;
     private List<ShowSeatDTO> seats;
     private  PaymentDTO payment;
-
+    private String status;
 
 }

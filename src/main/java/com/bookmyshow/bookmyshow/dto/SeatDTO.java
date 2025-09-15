@@ -12,7 +12,7 @@ public class SeatDTO {
     private  Long id;
     private String seatNumber;
     private String seatType; // e.g., "Regular", "Premium", "VIP"
-    private Double price;
+    private Double basePrice;
 
 }
 

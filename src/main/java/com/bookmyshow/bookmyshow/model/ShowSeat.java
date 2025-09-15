@@ -35,5 +35,6 @@ public class ShowSeat {
     @JoinColumn(name = "booking_id")
     private Booking booking; // Nullable, set when booked
 
-
+    @Column(nullable = false)
+    private String status; // AVAILABLE, BOOKED, BLOCKED
 }

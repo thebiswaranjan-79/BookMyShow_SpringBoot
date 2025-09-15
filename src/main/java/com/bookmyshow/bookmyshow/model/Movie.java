@@ -27,7 +27,7 @@ public class Movie {
 
     private String genre;
 
-    private  String durationMins; // e.g., "2h 30m"
+    private  Integer durationMins; // e.g., "2h 30m"
 
     private String releaseDate; // e.g., "2023-10-15"
 
